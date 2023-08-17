@@ -3,7 +3,7 @@ package CommandExcn;
 import org.testng.annotations.Test;
 
 public class UserRegistration {
-	@Test(groups = "Smoke")
+	@Test
 	public void UserRigister()
 	{
 		System.out.println("----succesfull(1)-------");
