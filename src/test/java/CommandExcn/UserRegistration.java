@@ -13,5 +13,10 @@ public class UserRegistration {
 	{
 		System.out.println("----succesfully Loggedin to UserLogin-------");
 	}
+	@Test(groups = "regression")
+	public void UserLogout()
+	{
+		System.out.println("----succesfully Loggedin to UserLogin-------");
+	}
 
 }
