@@ -7,6 +7,10 @@ public class gitupconflict {
 	public void conflict()
 	{
 		System.out.println("------success---");
+		
+		
+		
+		
 	}
 
 }
