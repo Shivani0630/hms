@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-18T12:08:54 IST" name="Default suite" finished-at="2023-08-18T12:08:54 IST" duration-ms="53">
+    <groups>
+      <group name="regression">
+        <method signature="UserRegistration.UserLogged()[pri:0, instance:CommandExcn.UserRegistration@625732]" name="UserLogged" class="CommandExcn.UserRegistration"/>
+        <method signature="UserRegistration.UserLogin()[pri:0, instance:CommandExcn.UserRegistration@625732]" name="UserLogin" class="CommandExcn.UserRegistration"/>
+        <method signature="UserRegistration.UserLogout()[pri:0, instance:CommandExcn.UserRegistration@625732]" name="UserLogout" class="CommandExcn.UserRegistration"/>
+      </group> <!-- regression -->
+      <group name="Smoke">
+        <method signature="UserRegistration.UserRigister()[pri:0, instance:CommandExcn.UserRegistration@625732]" name="UserRigister" class="CommandExcn.UserRegistration"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-08-18T12:08:54 IST" name="Default test" finished-at="2023-08-18T12:08:54 IST" duration-ms="53">
+      <class name="CommandExcn.UserRegistration">
+        <test-method signature="UserLogged()[pri:0, instance:CommandExcn.UserRegistration@625732]" started-at="2023-08-18T12:08:54 IST" name="UserLogged" finished-at="2023-08-18T12:08:54 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogged -->
+        <test-method signature="UserLogin()[pri:0, instance:CommandExcn.UserRegistration@625732]" started-at="2023-08-18T12:08:54 IST" name="UserLogin" finished-at="2023-08-18T12:08:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogin -->
+        <test-method signature="UserLogout()[pri:0, instance:CommandExcn.UserRegistration@625732]" started-at="2023-08-18T12:08:54 IST" name="UserLogout" finished-at="2023-08-18T12:08:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogout -->
+        <test-method signature="UserRigister()[pri:0, instance:CommandExcn.UserRegistration@625732]" started-at="2023-08-18T12:08:54 IST" name="UserRigister" finished-at="2023-08-18T12:08:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserRigister -->
+      </class> <!-- CommandExcn.UserRegistration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
